@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&display=swap");
+
+@font-face {
+  font-family: droid;
+  src: url(droid.otf) format("opentype"), url(droid.otf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Boldo;
+  src: url(Boldonse.ttf) format("opentype"),
+    url(Boldonse.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0px;
+}
+
+:root {
+  --cor0: #1b3d1b;
+  --cor01: #f5f5dc;
+  --cor02: #088108;
+  --cor03: #5eaf5eb7;
+  --cor04: #025502;
+  --cor05: #10db10;
+  --cor06: #c0c06d;
+
+  --fonte-destaque: "Bebas Neue", sans-serif;
+}
+
+.droid {
+  color: var(--cor04);
+  font-family: droid;
+  text-indent: 20px;
+
+  display: grid;
+  place-items: center;
+}
+.para {
+  text-indent: 20px;
+  font-family: Helvetica;
+  padding: 10px;
+
+  margin: 15px 0px;
+  text-align: justify;
+  line-height: 1em;
+}
+.grid {
+  display: grid;
+  place-items: center;
+  margin: auto;
+}
+.fonte {
+  color: var(--cor04);
+  font-family: droid;
+  text-indent: 20px;
+  margin: auto;
+  background-image: linear-gradient(to right,var(--cor05),transparent);
+}
+
+body {
+  background-color: var(--cor1);
+}
+
+/*CABEÇALHO DO SITE*/
+header {
+  background-image: linear-gradient(to bottom,var(--cor03),var(--cor04));
+  min-height: 150px;
+  color: white;
+  border-radius: 10px;
+  margin: 0px 0px 20px 0px;
+}
+
+header > h1 {
+  padding: 10px;
+  font-family: var(--fonte-destaque);
+  font-size: 3em;
+  font-weight: normal;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.603);
+}
+
+header > p {
+  font-size: 1.0em;
+  font-family: "Droid";
+  margin: auto;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.603);
+}
+
+.menu > ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  transition-duration: 0.5s;
+
+  background-color: var(--cor02);
+  margin-top: 70px;
+  font-family: "Courier New", Courier, monospace;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.692);
+}
+
+ul>li:hover{
+  background-color: var(--cor05);
+  color: black;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+}
+
+/*PARTE PRINCIPAL DO SITE*/
+main {
+  background-color: rgb(255, 255, 255);
+  height: 2300px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.603);
+
+  min-width: 320px;
+  max-width: 1000px;
+  margin: auto;
+}
+main img {
+  max-width: 100%;
+}
+
+/*IMAGEM PEQUENA*/
+.pequena{
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
+
+mark {
+  background-color: rgba(30, 168, 30, 0.5);
+}
+main a {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+
+div.video {
+  margin-bottom: 30px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 20px;
+  background-color: rgba(30, 168, 30, 0.5);
+
+  padding: 10px;
+  padding-bottom: 50%;
+
+  position: relative;
+}
+
+div.video >iframe{
+  position: absolute;
+  width: 90%;
+  height: 90%;
+}
+
+
+section {
+  display: grid;
+  place-items: center;
+  margin: auto;
+  border-radius: 20px;
+  background-color: var(--cor03);
+
+  width: 100%;
+  min-width: 320px;
+  max-width: 900px;
+  box-shadow: 1px 1px 9px;
+}
+
+section > h4 {
+  background-color: var(--cor05);
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+  font-family: Helvetica;
+  
+  width: 100%;
+  max-width:892px;
+  height: 25px;
+  padding: 5px;
+  font-size: 1.2em;
+  margin: 0px 0px 7px 0px;
+}
+
+ul.listafinal {
+  list-style: none;
+  font-family: Helvetica;
+  columns: 2;
+}
+
+footer{
+  background-color: var(--cor06);
+  text-align: center;
+  font-family: droid;
+  color: green;
+  margin-top: 100px;
+}
+
+a::after {
+  content: "🔗";
+  background-color: var(--cor04) (30, 168, 30, 0.5);
+}
