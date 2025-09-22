@@ -5,5 +5,5 @@ Curso de Html/Css do Gustavo Guanabara.
 Estou aprendendo a usar o Github.
 
 
-<a href ="inde>
+<a href ="https://rodrigoo2006.github.io/desafios/index.html"> CLIQUE AQUI </a>
 
