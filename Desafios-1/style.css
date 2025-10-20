@@ -1,18 +1,27 @@
 .p1{
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  box-shadow: 1px 5px 4px black;
+  padding: 5px;
   border-radius: 10px;
-  color: rgb(0, 0, 0);
-  background-color: rgb(250, 207, 65);
+  color: white;
+  background-color: lightblue;
 }
 
 body {
-  background-color: #f2b279;
+  background-color: lightgray;
   text-align: center;
 }
 
 
-div:hover > a {
-  box-shadow: 1px 5px 20px black;
+.caixas {
+  width: 300px;
+  border: 1px dashed black;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.caixas:hover{
+  transform: scale(1.1);
+  transition-duration: 1s;
+  border: 1px dashed lightblue;
 }
