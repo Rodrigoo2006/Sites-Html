@@ -16,18 +16,26 @@ nav img {
     margin-top: 10px;
     margin-left: 1400px;
 }
-nav img img:hover{
+nav img:hover{
     transform: scale(1.1);
     animation-duration: 1s;
     border: 1px solid rgb(0, 204, 255);
 }
 
-iframe{
-    background-image: url(imagens/frame-iphone.png);
-    height: 627px;
+.celular {
+     height: 627px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 311px;
+    background-image: url(imagens/frame-iphone.png);
+}
+iframe{
+    background-image: url(imagens/frame-iphone.png) no-repeat ;
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 260px;
+    height: 471px;
 }
