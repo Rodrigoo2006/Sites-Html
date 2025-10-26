@@ -26,7 +26,7 @@ nav img:hover{
 }
 
 .celular {
-     height: 627px;
+    height: 627px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -35,10 +35,9 @@ nav img:hover{
     background-image: url(imagens/frame-iphone.png);
 }
 iframe{
-    background-image: url(imagens/frame-iphone.png) no-repeat ;
     position: relative;
     top: 80px;
     left: 22px;
-    width: 260px;
+    width: 270px;
     height: 471px;
 }
