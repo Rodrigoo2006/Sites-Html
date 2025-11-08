@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/* Typical Device BreakPoints
+Pequenas Telas: ATE 600PX
+Celular: de 600px ate 768px
+Tablet: 768px ate 992px
+Desktop: 992px ate 1200px
+Grandes Telas: acimda de 1200px
+*/
+
+/*mobile first */
+
+*{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: rgb(223, 220, 218);
+        }
+        header{
+            background-color: rgb(150, 145, 145);
+            height: 110px;
+        }
+        header h2 {
+            text-align: center;
+            padding: 20px;
+            font-size: 1.7em;
+        }
+        div p {
+           text-align: center;
+           color: white;
+           background-color: grey;
+        }
+        div ul {
+            display: none;
+            background-color: gray;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        div li {
+            color: white;
+        }
+        
+        div:hover >ul {
+            display: block;
+        }
+        
+        
+        main article{
+            max-width: 768px;
+            background-color: white;
+            margin: auto;
+            margin-top: 120px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        article h1 {
+            text-align: center;
+        }
+        article p {
+        margin-top: 10px;
+        text-indent: 10px;
+        font-size: 1.3em;
+        }
+        a{
+            text-decoration: none;
+        }
+        li:hover{
+            background-color: rgb(216, 213, 213);
+            transition-duration: 1s;
+        }
