@@ -8,6 +8,7 @@ Desktop: 992px ate 1200px
 Grandes Telas: acima de 1200px
 */
 
+/*ANDROID*/
 @media screen and (max-width:769px) {
     main{
        width: 450px;
@@ -34,6 +35,45 @@ Grandes Telas: acima de 1200px
     }
     img{
         width: 210px;
+        overflow: hidden;
+        background-position: right top;
+    }
+}
+/*TELAS GRANDES*/
+@media screen and (min-width:1200px) {
+    body{
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    background-position: center center;
+    }
+    
+     main{
+       width: 1200px;
+       font-size: 1.6em;
+    }
+    form {
+        margin-right: 600px;
+    }
+    
+    form input {
+      width: 230px;
+    }
+    .envio{
+        width: 200px;
+        position: absolute;
+        right: 550px;
+        border-radius: 10px;
+       
+    }
+    .senha {
+        width: 200px;
+        position: absolute;
+        right: 330px;
+        top: 308px;
+        border-radius: 10px;
+        
+    }
+    img{
+        width: 600px;
         overflow: hidden;
         background-position: right top;
     }
