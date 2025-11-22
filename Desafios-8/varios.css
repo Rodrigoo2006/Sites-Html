@@ -16,6 +16,9 @@ Grandes Telas: acima de 1200px
     form h2 {
        margin-left: 80px;
     }
+    form p {
+        margin-left: 20px;
+    }
     
     form input {
       margin-right: 10px;
@@ -58,17 +61,19 @@ Grandes Telas: acima de 1200px
       width: 230px;
     }
     .envio{
-        width: 200px;
+        width: 300px;
         position: absolute;
         right: 550px;
         border-radius: 10px;
+        left: 150px;
        
     }
     .senha {
-        width: 200px;
+        width: 300px;
         position: absolute;
         right: 330px;
-        top: 308px;
+       
+        left: 150px;
         border-radius: 10px;
         
     }
